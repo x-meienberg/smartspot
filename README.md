@@ -42,4 +42,9 @@ https://developer.spotify.com/documentation/ios/
 
 https://ejhumphrey.com/assets/pdf/bittner2017automatic.pdf
 
+This paper introduces three important features that need to be included into such a model:
+
+- Acoustic vectors
+- Key and mode
+- Tempo
 
