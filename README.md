@@ -16,11 +16,11 @@ According to different sources, Serato Pyro uses following effects for transitio
 
 Pyro has a scoring system whereas two songs seem to transition well if their scores are similar or identical. 
 
-### Spotify API
+#### Spotify API
 
 https://developer.spotify.com/documentation/web-api/
 
-### Spotify iOS SDK
+#### Spotify iOS SDK
 
 https://developer.spotify.com/documentation/ios/
 
