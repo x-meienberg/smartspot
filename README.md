@@ -11,3 +11,16 @@ According to different sources, Serato Pyro uses following effects for transitio
 1. Pitch in Time
 2. Blending/crossfading similar BPMs
 3. 
+
+### Pyro scores
+
+Pyro has a scoring system whereas two songs seem to transition well if their scores are similar or identical. 
+
+### Spotify API
+
+https://developer.spotify.com/documentation/web-api/
+
+### Spotify iOS SDK
+
+https://developer.spotify.com/documentation/ios/
+
