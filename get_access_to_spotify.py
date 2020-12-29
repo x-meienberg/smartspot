@@ -15,9 +15,10 @@ auth_response = requests.post(AUTH_URL, {
     'client_secret': CLIENT_Secret,
 })
 
-
+#convert the response to JSON
 auth_response_data = auth_response.json()
 
+#save access token
 access_token = auth_response_data['access_token']
 
 
@@ -27,11 +28,18 @@ headers = {
 }
 
 
-BASE_URL = 'https:api.spotify.com/v1/'
+BASE_URL = 'https://api.spotify.com/v1/'
 
 track_id = '6y0igZArWVi6Iz0rj35c1Y'
 
 r = requests.get(BASE_URL + 'audio-features/' + track_id, headers = headers)
-
 r = r.json()
-r
+
+# Print the audio features of track 
+print(r)
+
+#t = requests.get(BASE_URL + 'audio-analysis/'+ track_id, headers = headers)
+#t = t.json()
+
+# Print the Audio Analysis of the track
+#print(t)
