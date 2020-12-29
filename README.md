@@ -44,7 +44,7 @@ https://ejhumphrey.com/assets/pdf/bittner2017automatic.pdf
 
 This paper introduces three important features that need to be included into such a model:
 
-- Acoustic vectors
-- Key and mode
+- Acoustic vectors: Train a convolutional neural network (CNN with 16 nodes) to reproduce filtering vectors in R^2048 where the acoustic vectors should match in eudlidian space close to each other
+- Key and mode: Information about key
 - Tempo
 
