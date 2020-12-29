@@ -1,9 +1,10 @@
 import json
 import requests
+import config
 
-CLIENT_ID = 'client_id'
+CLIENT_ID = config.client_id
 
-CLIENT_Secret = 'client_secret'
+CLIENT_Secret = config.client_secret
 
 AUTH_URL = 'https://accounts.spotify.com/api/token'
 
