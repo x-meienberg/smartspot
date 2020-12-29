@@ -13,13 +13,17 @@ Use different data sets from kaggle and train a network with multiple attributes
 
 According to different sources, Serato Pyro uses following effects for transitions:
 
-1. Pitch in Time
+1. Pitch in Time (Adjustment of BPM such that they match in pitch)
 2. Blending/crossfading similar BPMs
 3. 
 
 ### Pyro scores
 
 Pyro has a scoring system whereas two songs seem to transition well if their scores are similar or identical. 
+
+
+
+## Literature 
 
 #### Spotify API
 
@@ -28,4 +32,9 @@ https://developer.spotify.com/documentation/web-api/
 #### Spotify iOS SDK
 
 https://developer.spotify.com/documentation/ios/
+
+#### Further reading
+
+https://ejhumphrey.com/assets/pdf/bittner2017automatic.pdf
+
 
