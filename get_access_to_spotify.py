@@ -33,8 +33,13 @@ BASE_URL = 'https://api.spotify.com/v1/'
 track_id = '6y0igZArWVi6Iz0rj35c1Y'
 
 r = requests.get(BASE_URL + 'audio-features/' + track_id, headers = headers)
-
 r = r.json()
 
-
+# Print the audio features of track 
 print(r)
+
+t = requests.get(BASE_URL + 'audio-analysis/'+ track_id, headers = headers)
+t = t.json()
+
+# Print the Audio Analysis of the track
+print(t)
