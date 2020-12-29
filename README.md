@@ -38,7 +38,7 @@ https://developer.spotify.com/documentation/web-api/
 
 https://developer.spotify.com/documentation/ios/
 
-#### Further reading
+#### Paper on mathematical interpretation
 
 https://ejhumphrey.com/assets/pdf/bittner2017automatic.pdf
 
@@ -48,3 +48,6 @@ This paper introduces three important features that need to be included into suc
 - Key and mode: Information about key
 - Tempo
 
+### Pacemaker - A company with patents in mixing music in an app
+
+https://patentimages.storage.googleapis.com/0a/a4/3e/eaa8a77991ef6a/US10078488.pdf
