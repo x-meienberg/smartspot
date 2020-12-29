@@ -51,3 +51,4 @@ This paper introduces three important features that need to be included into suc
 ### Pacemaker - A company with patents in mixing music in an app
 
 https://patentimages.storage.googleapis.com/0a/a4/3e/eaa8a77991ef6a/US10078488.pdf
+https://patentimages.storage.googleapis.com/68/34/ee/a27e8d81f8bd75/US10146867.pdf
