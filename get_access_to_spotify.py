@@ -38,8 +38,8 @@ r = r.json()
 # Print the audio features of track 
 print(r)
 
-t = requests.get(BASE_URL + 'audio-analysis/'+ track_id, headers = headers)
-t = t.json()
+#t = requests.get(BASE_URL + 'audio-analysis/'+ track_id, headers = headers)
+#t = t.json()
 
 # Print the Audio Analysis of the track
-print(t)
+#print(t)
