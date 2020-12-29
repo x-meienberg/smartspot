@@ -7,7 +7,12 @@ Pyro from Serato is known for its ability to be an automatic DJ for parties wher
 
 ## Basic Idea
 
-Use different data sets from kaggle and train a network with multiple attributes/features to create an optimal playlist from a sample dataset of songs for a great party/event. 
+Use different data sets from kaggle and train a network with multiple attributes/features to create a playlist for a great party/event.
+
+### Two subproblems of creating a playlist
+
+1. Creating a playlist (define an optimal playlist given a huge library)
+2. Reorder a given tracklist (take a sample set of songs and choose the optimal order)
 
 ### How do you know that a song can be transitioned to another one?
 
