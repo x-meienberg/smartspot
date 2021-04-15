@@ -43,3 +43,9 @@ print(r)
 
 # Print the Audio Analysis of the track
 #print(t)
+
+test = 0
+for i in range(7):
+	test = test+i 
+
+	
